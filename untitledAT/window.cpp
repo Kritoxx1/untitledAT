@@ -18,5 +18,6 @@ Window::Window(const char* name, int width, int height) {
 
 	/* Make the window's context current */
 	glfwMakeContextCurrent(m_window);
-
+	
+	gladLoadGL();
 };
